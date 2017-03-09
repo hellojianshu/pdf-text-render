@@ -33,6 +33,10 @@
     <Reference Include="itext.barcodes, Version=7.0.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
       <HintPath>..\packages\itext7.7.0.2\lib\net40\itext.barcodes.dll</HintPath>
     </Reference>
+    <Reference Include="itext.font_asian, Version=7.0.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itext7.font-asian.7.0.2\lib\net40\itext.font_asian.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
     <Reference Include="itext.forms, Version=7.0.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
       <HintPath>..\packages\itext7.7.0.2\lib\net40\itext.forms.dll</HintPath>
     </Reference>
