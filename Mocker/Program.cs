@@ -12,6 +12,9 @@ namespace Mocker
         {
             var fileName = "D:\\1.pdf";
             var logName = "log.txt";
+            // add asian font module to this project.
+            // 2017-03-09
+            // lordkhan
             var text = HelloJianshu.PdfRender.DefaultRender.GetResultantText(fileName);
             File.WriteAllText(logName, text);
             Console.WriteLine("ok!");
